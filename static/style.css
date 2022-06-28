@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    
+}
+
+.bg-dark{
+    background-color: #757678;
+    /* background-color: #ffff; */
+}
+
+.et-50{
+    margin-top: 50px;
+}
+
+/* begin 3d like glass effect  */
+.glass{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgb(0, 0, 0, 0.37);
+}
+
+/* End 3d like glass effect  */ 
+
+/* 
+.answer span{
+    --total: calc(var(--duration)
+    + var(--delay));
+    position: relative;
+    display: block;
+    color: transparent;
+    overflow: hidden;
+    animation: revealText 1s
+    var(--total) forwards;
+}
+
+.answer span::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: #bb93fc;
+    animation: 
+    rollIn var(--duration)
+    var(--delay) forwards,
+    rollOut var(--duration) 
+    var(--total) forwards;
+}
+
+.answer span:nth-child(2)::after{
+    border-top: 3px solid #896ab9;
+}
+
+@keyframes revealText{
+    to{
+        color: #fff;
+    }
+
+}
+
+@keyframes rollIn{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(105%);
+    }
+} */
